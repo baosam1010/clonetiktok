@@ -1,0 +1,21 @@
+@use 'sass:math';
+//$abc: math.div(a,4);
+
+.card{
+    display: block;
+    padding: $base-padding;
+    box-shadow: $base-box-shadow;
+    border-radius: $base-border-thickness solid #ddd;
+    &-title{
+        font-size: $base-font-size;
+        padding-bottom: $base-padding;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+
+
